@@ -1,0 +1,3 @@
+searchKey,productName,resultCount,imageCount,productHeader,brand,productCode,rewardPoints,availability,productPrice,exTaxPrice
+MacBook,MacBook,3,5,MacBook,Apple,Product 16,600,Out Of Stock,$602.00,$500.00
+MacBook,MacBook Air,3,4,MacBook Air,Apple,Product 17,700,Out Of Stock,$1,202.00,$1,000.00

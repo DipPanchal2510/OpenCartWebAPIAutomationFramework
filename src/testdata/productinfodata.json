@@ -1,0 +1,77 @@
+[
+    {
+        "searchKey" : "MacBook",
+        "productName" : "MacBook",
+        "resultCount" :3,
+        "imageCount" :5,
+        "productHeader" : "MacBook",
+        "brand" : "Apple",
+        "productCode" : "Product 16",
+        "rewardPoints" : "600",
+        "availability" : "Out Of Stock",
+        "productPrice" :"$602.00",
+        "exTaxPrice" : "$500.00"
+    },
+    {
+        "searchKey" : "MacBook",
+        "productName" : "MacBook Air",
+        "resultCount" :3,
+        "imageCount" :4,
+        "productHeader" : "MacBook Air",
+        "brand" : "Apple",
+        "productCode" : "Product 17",
+        "rewardPoints" : "700",
+        "availability" : "Out Of Stock",
+        "productPrice" :"$1,202.00",
+        "exTaxPrice" : "$1,000.00"
+    },
+    {
+        "searchKey" : "MacBook",
+        "productName" : "MacBook Pro",
+        "resultCount" :3,
+        "imageCount" :4,
+        "productHeader" : "MacBook Pro",
+        "brand" : "Apple",
+        "productCode" : "Product 18",
+        "rewardPoints" : "800",
+        "availability" : "Out Of Stock",
+        "productPrice" :"$2,000.00",
+        "exTaxPrice" : "$2,000.00"
+    },
+    {
+        "searchKey" : "imac",
+        "productName" : "iMac",
+        "resultCount" :1,
+        "imageCount" :3,
+        "productHeader" : "iMac",
+        "brand" : "Apple",
+        "productCode" : "Product 14",
+        "availability" : "Out Of Stock",
+        "productPrice" :"$122.00",
+        "exTaxPrice" : "$100.00"
+    },
+    {
+        "searchKey" : "samsung",
+        "productName" : "Samsung SyncMaster 941BW",
+        "resultCount" :2,
+        "imageCount" :1,
+        "productHeader" : "Samsung SyncMaster 941BW",
+        "productCode" : "Product 6",
+        "availability" : "2-3 Days",
+        "productPrice" :"$242.00",
+        "exTaxPrice" : "$200.00"
+    },
+    {
+        "searchKey" : "samsung",
+        "productName" : "Samsung Galaxy Tab 10.1",
+        "resultCount" :2,
+        "imageCount" :7,
+        "productHeader" : "Samsung Galaxy Tab 10.1",
+        "productCode" : "SAM1",
+        "rewardPoints" : "1000",
+        "availability" : "Pre-Order",
+        "productPrice" :"$241.99",
+        "exTaxPrice" : "$199.99"
+    }
+    
+]
