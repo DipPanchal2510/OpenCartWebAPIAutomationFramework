@@ -31,9 +31,10 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 2 : undefined,
   
-  reporter: [
+  reporter: process.env.CI 
+  ? [
     ["list"],
     ["html",{outputFolder: 'reports/html-report' ,open: "never"}],
     ["allure-playwright",{
@@ -41,13 +42,24 @@ export default defineConfig({
       suiteTitle: true
     }],
     ['reporting-labs', reportingLabs]
-  ],
+  ]
+  : 
+  [
+    ["list"],
+    ["html",{outputFolder: 'reports/html-report' ,open: "never"}],
+    ["allure-playwright",{
+      outputFolder: "allre-results",
+      suiteTitle: true
+    }],
+    ['reporting-labs', reportingLabs]
+  ]
+  ,
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: process.env.baseUrl,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: true,
+    headless: !process.env.CI ? false : true,
     screenshot: 'only-on-failure',
   },
 
